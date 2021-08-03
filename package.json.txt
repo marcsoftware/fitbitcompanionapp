@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "91c3a803-7d77-4594-a8fd-c43a4a2d954d",
+    "appType": "app",
+    "appDisplayName": "getCaloriesConsumed",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffeb3b",
+    "requestedPermissions": [
+      "access_internet",
+      "access_activity",
+      
+      "access_user_profile",
+      "access_heart_rate",
+      "run_background",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "getCaloriesConsumed"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
