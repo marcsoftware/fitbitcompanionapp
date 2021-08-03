@@ -1,19 +1,27 @@
-#how to install
+# sdk-oauth
 
-1. go to studio.fitbit.com 
+A sample application which uses the Settings API [OAuth
+component](https://dev.fitbit.com/reference/settings-api/#oauth-button), and the
+[Fitbit Web API](https://dev.fitbit.com/reference/web-api/quickstart/) to query
+sleep data.
 
-2. create new app and drap&drop the source code
+## Usage
 
-3. enable devloper bride on your phone.
+1. You must first register a Web Application on
+   [dev.fitbit.com](https://dev.fitbit.com/apps/new) to get an OAuth ID and
+   secret. Configure the application as:
 
-4. enable devloper bride on the fitbit device
+- OAuth 2.0 Application Type: **Server**
+- Callback URL: 
+  **https://app-settings.fitbitdevelopercontent.com/simple-redirect.html**
 
-5. on studio.fitbit.com select both your phone and your fitbitwatch from the drop down
+2. Enter your **OAuth 2.0 Client ID** and **Client Secret** into
+   `settings/index.jsx`
 
-6. click run
+3. After installing the project from Fitbit Studio, you need to login to the
+   Fitbit Web API using the settings page within the Fitbit mobile application.
 
-7. after successful install go to developer menu on phone and select the app named 'companion+wepAPI'
+   ***Fitbit mobile app > Ionic > Developer menu > your app > Settings***
 
-8. click settings and you will be prompted to login with your fitbit account or your fitbit account may even by autoconnected after clicking
-
-   
+Read more in the [Reference
+documentation](https://dev.fitbit.com/reference/#overview).

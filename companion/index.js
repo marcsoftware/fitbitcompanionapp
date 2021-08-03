@@ -47,6 +47,7 @@ function fetchCalories(accessToken)  {
 
   // Sleep API docs - https://dev.fitbit.com/reference/web-api/sleep/
   //  /1.2/user/-/sleep/date/{date}.json
+  console.log(`todays date is ${todayDate}`);
   fetch(`https://api.fitbit.com/1/user/-/foods/log/date/${todayDate}.json`, {
     method: "GET",
     headers: {
@@ -58,7 +59,7 @@ function fetchCalories(accessToken)  {
   }) 
   .then(function(data) {
     let myData = {
-      totalMinutesAsleep: data.summary.calories
+      totalMinutesAsleep: data.summary
       
       //data.summary.calories
     }

@@ -1,3 +1,5 @@
-<svg>
-  <image id="myImage" href="images/waiting.jpg" />
+<svg class="background" >   
+  <text id="title" > this is companion app</text>
+  <text id="burnedcalories">____</text>
+  <text id="foodcalories">____</text>
 </svg>

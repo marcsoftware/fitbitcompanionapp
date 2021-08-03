@@ -1,0 +1,21 @@
+.background {
+  viewport-fill: black;
+}
+
+#title{
+  fill:red;
+  x:10;
+  y:20;
+}
+
+#foodcalories{
+  fill:white;
+  font-size:90;
+}
+
+#burnedcalories{
+  fill:blue;
+  font-size:90;
+  x:1%;
+  y:10%;
+}
