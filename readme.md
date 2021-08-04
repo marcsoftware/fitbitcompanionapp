@@ -1,5 +1,4 @@
-### one click install from this url 
-### https://gallery.fitbit.com/details/f6c80bec-8118-49b8-9de5-c56215726294
+### one click install from this url  https://gallery.fitbit.com/details/f6c80bec-8118-49b8-9de5-c56215726294
 
 This app display calorie_burn, food_calories, and calorie_balance
 
