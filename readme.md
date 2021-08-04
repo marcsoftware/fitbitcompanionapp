@@ -1,27 +1,18 @@
-# sdk-oauth
+This app display calorie_burn, food_calories, and calorie_balance
+-calorie_burn is reduced by 40% since fitbit calculations may be overly optimistic
+-food_calories are subtracted by the users BMR
 
-A sample application which uses the Settings API [OAuth
-component](https://dev.fitbit.com/reference/settings-api/#oauth-button), and the
-[Fitbit Web API](https://dev.fitbit.com/reference/web-api/quickstart/) to query
-sleep data.
+![Alt text](screenshot.png)
 
-## Usage
-
-1. You must first register a Web Application on
-   [dev.fitbit.com](https://dev.fitbit.com/apps/new) to get an OAuth ID and
-   secret. Configure the application as:
-
-- OAuth 2.0 Application Type: **Server**
-- Callback URL: 
-  **https://app-settings.fitbitdevelopercontent.com/simple-redirect.html**
-
-2. Enter your **OAuth 2.0 Client ID** and **Client Secret** into
-   `settings/index.jsx`
-
-3. After installing the project from Fitbit Studio, you need to login to the
-   Fitbit Web API using the settings page within the Fitbit mobile application.
-
-   ***Fitbit mobile app > Ionic > Developer menu > your app > Settings***
-
-Read more in the [Reference
-documentation](https://dev.fitbit.com/reference/#overview).
+# How to install
+1. resigter an app on dev.fitbit.com.apps
+2. copy paste the clientID and client_secret into setting/index.jsx
+3. go to fitbit.studio.com
+4. connect Fitbitwatch to the debugger 
+5. connect phone to the debugger
+6. select the phone ans watch from the drop down menu and click run
+7. after sucessful install open fitbit app on your phone
+8. open devleopermenu on your phone and open companionApp under sideloaded apps
+9. click settings and you will be prompted to login
+10. on your watch slide right until you find the companionApp
+11. click the app to run
