@@ -12,9 +12,10 @@ This app display calorie_burn, food_calories, and calorie_balance
 3. go to fitbit.studio.com
 4. connect Fitbitwatch to the debugger 
 5. connect phone to the debugger
-6. select the phone ans watch from the drop down menu and click run
-7. after sucessful install open fitbit app on your phone
-8. open devleopermenu on your phone and open companionApp under sideloaded apps
-9. click settings and you will be prompted to login
-10. on your watch slide right until you find the companionApp
-11. click the app to run
+6. select the phone ans watch from the drop down menu 
+8. click run
+9. after sucessful install open fitbit app on your phone
+10. open devleopermenu on your phone and open companionApp under sideloaded apps
+11. click settings and you will be prompted to login
+12. on your watch slide right until you find the companionApp
+13. click the app to run
