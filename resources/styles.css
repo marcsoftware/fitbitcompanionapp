@@ -2,7 +2,21 @@
   viewport-fill: black;
 }
 
+#burnedcalories{
+  fill:blue;
+  font-size:90;
+  x:5%;
+  y:20%;
+   text-length:100;
+}
 
+#burnedcalorieslabel{
+  fill:blue;
+  font-size:20;
+  x:45%;
+  y:25%;
+   text-length:100;
+}
 
 #foodcalories{
   fill:grey;
@@ -12,18 +26,45 @@
   y:50%;
 }
 
+#foodcalorieslabel{
+  fill:grey;
+  font-size:20;
+   text-length:100;
+  x:45%;
+  y:55%;
+}
+
+
+
+#BMR{
+  fill:white;
+  font-size:50;
+  x:5%;
+  y:70%;
+   text-length:100;
+}
+
+#BMRlabel{
+  fill:white;
+  font-size:20;
+  x:45%;
+  y:75%;
+   text-length:100;
+}
+
 #balancecalories{
   fill:green;
   font-size:90;
   x:5%;
-  y:85%;
+  y:97%;
   text-length:100;
 }
 
-#burnedcalories{
-  fill:blue;
-  font-size:90;
-  x:5%;
-  y:20%;
-   text-length:100;
+#balancecalorieslabel{
+  fill:green;
+  font-size:20;
+  x:45%;
+  y:100%;
+  text-length:100;
 }
+

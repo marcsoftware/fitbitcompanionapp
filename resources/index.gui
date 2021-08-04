@@ -1,6 +1,11 @@
 <svg class="background" >   
   
   <text id="burnedcalories">____</text>
+  <text id="burnedcalorieslabel">calories burned</text>
   <text id="foodcalories">____</text>
+  <text id="foodcalorieslabel">consumed calories</text>
+  <text id="BMR">____</text>
+  <text id="BMRlabel">BMR</text>
   <text id="balancecalories">____</text>
+  <text id="balancecalorieslabel">calorie balance</text>
 </svg>
