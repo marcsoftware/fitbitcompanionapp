@@ -1,5 +1,6 @@
 <svg class="background" >   
-  <text id="title" > this is companion app</text>
+  
   <text id="burnedcalories">____</text>
   <text id="foodcalories">____</text>
+  <text id="balancecalories">____</text>
 </svg>

@@ -15,7 +15,7 @@ settingsStorage.onchange = evt => {
 // Restore previously saved settings and send to the device
 function restoreSettings() {
     
-  
+
   
   for (let index = 0; index < settingsStorage.length; index++) {
     let key = settingsStorage.key(index);
@@ -66,7 +66,9 @@ function fetchCalories(accessToken)  {
     if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
       messaging.peerSocket.send(myData);
       console.log("=============="+ JSON.stringify(myData.totalMinutesAsleep));
+    }else{
+      // TODO tell user if somethign failed
     }
   })
-  .catch(err => console.log('[FETCH]: ' + err));
+  .catch(err => function(){console.log('[FETCH]: ' + err);});
 }

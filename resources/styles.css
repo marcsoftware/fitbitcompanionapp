@@ -2,20 +2,28 @@
   viewport-fill: black;
 }
 
-#title{
-  fill:red;
-  x:10;
-  y:20;
-}
+
 
 #foodcalories{
-  fill:white;
+  fill:grey;
   font-size:90;
+   text-length:100;
+  x:5%;
+  y:50%;
+}
+
+#balancecalories{
+  fill:green;
+  font-size:90;
+  x:5%;
+  y:85%;
+  text-length:100;
 }
 
 #burnedcalories{
   fill:blue;
   font-size:90;
-  x:1%;
-  y:10%;
+  x:5%;
+  y:20%;
+   text-length:100;
 }
