@@ -7,7 +7,7 @@ This app display calorie_burn, food_calories, and calorie_balance
 ![Alt text](screenshot.png)
 
 # How to install
-1. resigter an app on dev.fitbit.com.apps
+1. resigter an app on dev.fitbit.com/apps
 2. copy paste the clientID and client_secret into setting/index.jsx
 3. go to fitbit.studio.com
 4. connect Fitbitwatch to the debugger 
