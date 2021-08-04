@@ -2,7 +2,7 @@ one click install from this url :https://gallery.fitbit.com/details/f6c80bec-811
 
 This app display calorie_burn, food_calories, and calorie_balance
 -calorie_burn is reduced by 40% since fitbit calculations may be overly optimistic
--food_calories are subtracted by the users BMR
+
 
 ![Alt text](screenshot.png)
 
