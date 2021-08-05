@@ -42,7 +42,7 @@ This app display calorie_burn, food_calories, and calorie_balance
 
 13. on your watch swipe right until you find the companionApp
 
-    ![watchONE](README\watchONE.png)
+    ![watchONE](README/watchONE.png)
 
 18. click the app to run
 
