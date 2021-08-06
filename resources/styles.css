@@ -2,6 +2,18 @@
   viewport-fill: black;
 }
 
+
+
+.prompt{
+  fill:red;
+  viewport-fill: fb-cyan;
+  text-length:100;
+}
+
+.prompt2{
+  y:62%;
+}
+
 #burnedcalories{
   fill:blue;
   font-size:90;

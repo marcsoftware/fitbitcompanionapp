@@ -5,7 +5,7 @@
   "fitbit": {
     "appUUID": "f6c80bec-8118-49b8-9de5-c56215726294",
     "appType": "app",
-    "appDisplayName": "OPENSOURCE calorie deficit",
+    "appDisplayName": "OPENSOURCE calorie balance",
     "iconFile": "resources/icon.png",
     "wipeColor": "#e91e63",
     "requestedPermissions": [
@@ -21,7 +21,7 @@
     ],
     "i18n": {
       "en-US": {
-        "name": "OPENSOURCE calorie deficit"
+        "name": "OPENSOURCE calorie balance"
       }
     },
     "defaultLanguage": "en-US"

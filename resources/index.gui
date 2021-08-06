@@ -8,4 +8,9 @@
   <text id="BMRlabel">BMR</text>
   <text id="balancecalories">____</text>
   <text id="balancecalorieslabel">calorie balance</text>
+  
+   <text class="prompt" id="prompt1"></text>
+    <text class="prompt prompt2" id="prompt2"></text>
+  
 </svg>
+
